@@ -7,21 +7,11 @@ Add this line to your application's Gemfile:
 
     bundle install --path vendor
 
-And then execute:
+Install ffmpeg
 
-    $ bundle
-
-
-
-You must also install the ffmpeg utility on your local machine. If you are using OS X, the easiest way to do this is to install brew. You may need to instal XQuartz before installing ffmpeg:
-
-    $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
-    # You may be prompted to install XQuartz. Get it at https://xquartz.macosforge.org
-    $ brew install ffmpeg
-
+    Download from http://ffmpegmac.net. Copy the file to /usr/local/bin
 
 == Command Line
 
  bundle exec speech2text i-like-pickles.wav
- cat i-like-pickles.json
- {"captured_json"=>[["I like pickles", 0.92731786]], "confidence"=>0.92731786}
+
